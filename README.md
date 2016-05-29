@@ -4,15 +4,15 @@ Script and Results for the "Getting and Cleaning Data" course project. Contains 
 
 The script does the following:
 
-*Downloads & Unzips the data if not already present
-*Reads the test & training data
-*Reads the descriptive files (features,activities,subjects) for both sets
-*Keeps only features of interest (mean & std features) from both train & test datasets
-*Adds information about activities & subsets to both train & test datasets
-*Merges the two datasets
-*Replaces the acivity numbers with descriptions
-*Creates a new dataset containing the mean of each variable for a set of Subject&Activity pair
-*Prints this data set to a file called mean.rds
+*`Downloads & Unzips the data if not already present`
+*`Reads the test & training data`
+*`Reads the descriptive files (features,activities,subjects) for both sets`
+*`Keeps only features of interest (mean & std features) from both train & test datasets`
+*`Adds information about activities & subsets to both train & test datasets`
+*`Merges the two datasets`
+*`Replaces the acivity numbers with descriptions`
+*`Creates a new dataset containing the mean of each variable for a set of Subject&Activity pair`
+*`Prints this data set to a file called mean.rds`
   
   
   
