@@ -3,6 +3,7 @@
 Script and Results for the "Getting and Cleaning Data" course project. Contains a R script called run_analysis.R, a cookbook describing variables and the resulting data set called mean.rds
 
 The script does the following:
+
   -Downloads & Unzips the data if not already present
   -Reads the test & training data
   -Reads the descriptive files (features,activities,subjects) for both sets
