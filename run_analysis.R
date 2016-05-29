@@ -41,7 +41,7 @@ tidy_set <-kept_data %>%
   group_by(Subject,Activity) %>%
   summarise_each(funs(mean(., na.rm=TRUE)))
 #Print the Dataset
-write.table(tidy_set, "mean.rds")
+write.table(tidy_set, "mean.rds",row.name=FALSE)
 
 
 
